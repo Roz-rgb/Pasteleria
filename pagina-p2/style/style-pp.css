@@ -1,0 +1,149 @@
+body{
+margin: 0;
+background-color: #5d5d5d;
+}
+.conatiner-page{
+    max-width: 1000px;
+    background-color: aqua;
+    position:absolute;
+    left:10%;
+    right: 10%;
+}
+.conatiner-menu{
+    color: white;
+    background-color: black;
+}
+.container-carrusel{
+    height: 300px;
+    background-color: gray;
+}
+.container-cards{
+    background-color: darkgrey;
+}
+.dropdown-item, .nav-link {
+    color: white;
+    opacity: 100%;
+}
+.dropdown-item:hover, .nav-link:hover {
+    color: white;
+    opacity: 100%;
+}
+.dropdown-menu{
+    background-color: #191a1bbe;
+    opacity: 56%;
+
+}
+.dropdown-item:hover{
+    background-color: #4c7889;
+}
+.img-carrusel{
+    height: 300px;
+}
+
+.carousel-item¨{
+    position: relative;
+}
+.carousel-item label{
+    position: absolute;
+    width: 100%;
+    text-align: right;
+    top: 280px;
+    
+}
+#labe-carousel1{
+    color: rgb(255, 255, 255);
+}
+#labe-carousel2{
+    color: rgb(255, 181, 181);
+}
+.img-card{
+    height :150px;
+}
+
+.card-container-custom{
+    background-color:  rgba(255, 255, 255, 0.29);
+}
+#back-w{
+    background-color: rgba(255, 255, 255, 0.29);}
+
+.container-cards{
+background-color: #525457;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-column-gap: 20px;
+grid-row-gap:20px ;
+padding: 30px;
+}
+.card-galery-button{
+    background-color: #009fe3;
+    color:white;
+}
+.card-galery-button:hover{
+    color: white;
+    background-color: #0187c0;
+    box-shadow: 1.5px 1.5px 5px rgb(255, 255, 255);
+}
+/*
+@media only screen and (max-width: 400px){
+  
+    .container-cards{
+        
+        grid-template-columns: repeat(1, 1fr);}
+     
+
+    .conatiner-page{
+        left:5%;
+        right: 5%
+        }
+    }
+
+    @media only screen and (min-width: 425px){
+        .conatiner-page{
+            left:10%;
+            right: 10%}
+    
+            .container-cards{
+              
+                grid-template-columns: repeat(1, 1fr);
+           
+    }
+}*/
+
+@media (max-width: 500px){
+    .container-cards{
+        background-color: #525457;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap:20px ;
+        padding: 30px;
+        }
+    .conatiner-page{
+        left:5%;
+        right: 5%
+}
+}
+@media (min-width: 501px) and (max-width: 901px){
+    .container-cards{
+        background-color: #525457;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap:20px ;
+        padding: 30px;
+        }
+        .conatiner-page{
+            left:5%;
+            right: 5%;}
+}
+
+@media (min-width: 900px){
+    .container-cards{
+        background-color: #525457;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap:20px ;
+        padding: 30px;
+        }
+}

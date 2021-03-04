@@ -1,0 +1,45 @@
+.container-galery{
+background-color: #525457;
+}
+.titile-galery{
+    padding: 10px;
+}
+h1, h2{
+    color: white;
+    margin:0;
+    display: inline-block;
+    }
+h1{padding: 15px;
+font-size: 45px;
+}
+
+h2{
+font-size: 25px;
+}
+
+.img-card{
+    height :150px;
+}
+
+.food-galery{
+    background-color: #525457;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap:20px ;
+    padding: 30px;
+    }
+    .card-galery-button{
+        background-color: #009fe3;
+        color:white;
+    }
+    .card-galery-button:hover{
+        color: white;
+        background-color: #0187c0;
+        box-shadow: 1.5px 1.5px 5px rgb(255, 255, 255);}
+
+        .card-container-custom{
+            background-color:  rgba(255, 255, 255, 0.29);
+        }
+        #back-w{
+            background-color: rgba(255, 255, 255, 0.29);}

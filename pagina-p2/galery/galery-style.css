@@ -1,0 +1,16 @@
+@import 'menu.css';
+@import 'galery-t.css';
+
+body{
+    margin: 0;
+    background-color: #5d5d5d;
+    }
+    
+    .container-page{
+        max-width: 1000px;
+        background-color: aqua;
+        position:absolute;
+        left:10%;
+        right: 10%;}
+
+        
